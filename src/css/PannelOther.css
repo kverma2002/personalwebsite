@@ -1,0 +1,59 @@
+.info-other
+{
+  margin-top: 10px;
+  position:absolute;
+  align-content: center;
+  width: 100%;
+  
+}
+
+.outline-other {
+  border: #fa0000;
+  opacity: 1;
+  border: 4px solid;
+  border-radius: 25px;
+  color: #fa0000;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+/* 
+.one {
+ width: 33%;
+ height:100%
+} */
+
+.row1-projects {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+
+}
+
+.para-other {
+  width: 40%;
+  display: inline-block;
+  align-items: center;
+  padding-bottom: 3%;
+  padding-top: 1%;
+  font-size: 5mm;
+  text-align: center;
+  color: white;
+
+}
+  
+    /* Clear floats after the columns */
+  .row1:after {
+    display: table;
+    clear: both;
+  }
+  .itempog {
+    height: 100%;
+    line-height: 125px;
+    height: 250px;
+    width: 250px;
+    font-size: 18px;
+    color: white;
+  }
+

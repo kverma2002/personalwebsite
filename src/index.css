@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Sans+Pro&display=swap");
+
+:root {
+  /* main colors */
+
+  --color-1: #3dc39b;
+  --color-2: #928cf8;
+  --color-3: #fe74a6;
+  --color-4: #5b6dff;
+  --color-5: #ffe975;
+
+  /* whites */
+
+  --bg-color-1: #f7f7fd;
+  --bg-color-2: #ebebf9;
+  --bg-color-3: #f4f4f4;
+
+  /* grays */
+
+  --gray-1: #595959;
+  --gray-2: #b3b3b3;
+  min-height: 100vh;
+}
+* {
+  box-sizing: inherit;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
 }

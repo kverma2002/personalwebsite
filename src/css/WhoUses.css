@@ -1,0 +1,140 @@
+.skills {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+.skills:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin:center;
+  transition: transform .3s ease-out;
+}
+.skills:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+  color: #0087ca;
+}
+.activeskills {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: #0087ca;
+  text-decoration: underline;
+}
+
+.projects {
+  display: inline-block;
+  position: relative;
+  color:#f18705;
+}
+.projects:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f18705;
+  transform-origin:center;
+  transition: transform .3s ease-out;
+}
+.projects:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+  color: #f18705;
+}
+.activeprojects {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: #f18705;
+  text-decoration: underline;
+}
+
+
+.education {
+  display: inline-block;
+  position: relative;
+  color:greenyellow;
+}
+.education:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: greenyellow;
+  transform-origin:center;
+  transition: transform .3s ease-out;
+}
+.education:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+  color: greenyellow;
+}
+.activeeducation {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: greenyellow;
+  text-decoration: underline;
+}
+
+
+.other {
+  display: inline-block;
+  position: relative;
+  color:#fa0000;
+}
+.other:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fa0000;
+  transform-origin:center;
+  transition: transform .3s ease-out;
+}
+.other:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+  color: #fa0000;
+}
+.activeother {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: #fa0000;
+  text-decoration: underline;
+}
+
+.center {
+  padding-top: 2%;
+}
+
+
+
+
+
+
+.rowC{
+  display:flex; 
+  flex-direction:row;
+  color: white;
+  font-size: 6mm;
+  position: relative;
+  padding: 5px;
+  width: max-content;
+  padding: 10px;
+  margin: auto;
+}
+
+
